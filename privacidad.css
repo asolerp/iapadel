@@ -177,24 +177,17 @@ html {
 
 .legal-page__content { 
     width: 800px; 
-    width: 800px;
-
 } 
 
 .legal-page__content .language-selector__container  { 
     display: flex; 
     justify-content: flex-end; 
     margin-left: -8px; 
-    display: flex; 
-    justify-content: flex-end; 
-    margin-left: -8px;
 
 } 
 
 .markdown { 
     line-height: 1.4; 
-    line-height: 1.4;
-
 } 
 
 ul { 
@@ -916,3 +909,17 @@ u {
     vertical-align: baseline;
 
 } 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .legal-page__content {
+        width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .legal-page__content {
+        width: 90%;
+    }
+}
